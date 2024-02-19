@@ -1,0 +1,25 @@
+let myArray = new Array();
+console.log(myArray.length);
+myArray[0] = 3;
+console.log(myArray.length);
+myArray[myArray.length] = 4;
+myArray[10] = 10;
+console.log(myArray.length);
+console.log(myArray);
+console.log(myArray[5]);
+console.log(myArray.push(1000));
+console.log(myArray);
+console.log(myArray.pop());
+console.log(myArray);
+console.log(myArray.shift());
+console.log(myArray);
+console.log(myArray.unshift(2000));
+console.log(myArray);
+myArray.push(3000);
+console.log(myArray.splice(1,1));
+console.log(myArray);
+
+let array2 = new Array(3,4,5,6,7);
+let array3 = [];
+let array4 = [1,2,3,4];
+let array5 = [[1,2,3],[4,5,6,8,9],[7,8,9]];

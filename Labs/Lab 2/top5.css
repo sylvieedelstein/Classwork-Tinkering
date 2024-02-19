@@ -1,0 +1,32 @@
+body {
+    background-color:black;
+    color:white;
+}
+
+h1 {
+    font-family: "Dancing Script", sans-serif;
+    font-style: italic;
+    
+}
+
+li {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    padding:5px;
+    transform:rotate(10deg)
+
+}
+
+.show {
+    border:1px solid lightpink;
+}
+
+.spotlight {
+    padding: 10px;
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 300;
+    text-align: center;
+}
